@@ -6,7 +6,7 @@
   }
 
   body * {
-    box-sizing: border-box;
+      box-sizing: border-box;
   }
 
   .main-login {
@@ -115,44 +115,57 @@
 
   }
 
+  .rodape {
+      background: #201b2c;
+      color: #00ff88;
+      padding-left: 10px;
+  }
+
   @media only screen and (max-width: 950px) {
       .card-login {
           width: 85%;
       }
   }
 
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 600px) {
       .main-login {
 
           flex-direction: column;
       }
 
-      .left-login > h1{
+      .left-login>h1 {
           display: none;
 
       }
 
-      .left-login{
+      .left-login {
           width: 100%;
           height: auto;
 
       }
 
-      .right-login{
-        width: 100%;
-        height: auto;
-    }
+      .right-login {
+          width: 100%;
+          height: auto;
+      }
 
 
-.left-login-image{
-width: 50vw;
+      .left-login-image {
+          width: 50vw;
 
+      }
+
+      .card-login {
+
+          width: 90%;
+
+      }
+
+.rodape{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    
 }
 
-.card-login{
-
-    width: 90%;
-     
-}
-
-}
+  }
